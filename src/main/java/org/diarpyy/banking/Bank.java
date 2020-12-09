@@ -1,4 +1,4 @@
-package banking;
+package org.diarpyy.banking;
 
 import java.sql.*;
 import java.util.ArrayList;

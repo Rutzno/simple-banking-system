@@ -1,4 +1,4 @@
-package banking;
+package org.diarpyy.banking;
 
 import org.sqlite.SQLiteDataSource;
 
@@ -25,7 +25,7 @@ public class Main {
 
             try (Connection connection = dataSource.getConnection();
                  Statement statement = connection.createStatement()) {
-                //statement.executeUpdate("CREATE DATABASE banking");
+                //statement.executeUpdate("CREATE DATABASE org.diarpyy.banking");
 
                 statement.executeUpdate("CREATE TABLE IF NOT EXISTS card (" +
                         "id INTEGER PRIMARY KEY," +

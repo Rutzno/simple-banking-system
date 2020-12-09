@@ -1,4 +1,4 @@
-package banking;
+package org.diarpyy.banking;
 
 public class Card {
     private int id;
