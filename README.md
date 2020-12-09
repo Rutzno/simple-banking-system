@@ -1,7 +1,7 @@
-# Simple System Banking
+# Simple Banking System
 
-Simple system org.diarpyy.banking with JDBC API and SQLite database (RDBMS).
-We use Luhn algorithm to validate credit card.
+**Simple banking system** with **JDBC API** and **SQLite** database (RDBMS).
+We use _Luhn algorithm_ to validate credit card.
 
 To run this app, you will need to specify in the program arguments 
-the following params : -fileName card.s3db
+the following params : _-fileName card.s3db_
